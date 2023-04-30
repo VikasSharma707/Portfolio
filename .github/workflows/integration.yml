@@ -16,5 +16,5 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
-            push: true
-            tags: vkssharma75/nextwebapp:latest, vkssharma75/nextwebapp: ${{ github.run_number }}
+        push: true
+        tags: vkssharma75/nextwebapp:latest, vkssharma75/nextwebapp: ${{ github.run_number }}
