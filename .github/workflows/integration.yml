@@ -15,6 +15,6 @@ jobs:
     - name: Build and Push Docker Hub
       uses: docker/build-push-action@v4
       with:
-      context: .
-          push: true
-          tags: vkssharma75/nextwebapp:latest, vkssharma75/nextwebapp: ${{ github.run_number }}
+        context: .
+            push: true
+            tags: vkssharma75/nextwebapp:latest, vkssharma75/nextwebapp: ${{ github.run_number }}
